@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/all.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="app.js"></script>
+    <title>👋Hi! Welcome to My site</title>
+    <link rel="icon" href="img/n.png">
+    
+</head>
+<body>
+    <nav class="navbar">
+
+        <ul class="link-group">
+            <li class="link active"><a href="#home-section">home</a></li>
+            <li class="link"><a href="#project-section">projects</a></li>
+            <li class="link"><a href="#about-section">about</a></li>
+            <li class="link"><a href="#contact-section">contact</a></li>
+        </ul>
+        <a href="https://wa.me/7858911019?text=Hi!!%20"><i class="fa-brands fa-whatsapp icon-cog fa-2x whatsappcorner"></i></a>
+    </nav>
+
+    <!-- home section -->
+
+<section class="home-section active" id="home-section">
+    <h1 class="hero-heading animate__animated animate__flipInX">hello, i am<a href="flag.html" class="name"><br> Nitish</a>  </h1>
+    <img src="img/home.jpeg" class="home-img" alt="">
+</section>
+
+
+<!-- project section -->
+<section class="project-section active" id="project-section">
+    <h1 class="project-heading ">some of my projects</h1>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="img/project-1.jpg" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">Sci-Fi Mirror </h1>
+                <p class="project-info">
+                    Web app running on a raspberry pie that shows basic useful information like time season and temperature, AQI of the current location etc.implementation of connecting the web app to a phone and use phones info to show on different info on WebApp
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github"><a href="https://github.com/nitninja/scifi.git">github repo</a></button>
+                    <button class="project-btn live"><a href="https://nitninja.github.io/scifi/">see live</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="img/smarthome.jpg" class="project-img" alt="">
+            <div class="project-content">
+                <h1 class="project-title">Smart Homes</h1>
+                <p class="project-info">
+                    An android application which can be integrated with IoT devices using firebase Realtime Database to control multiple devices through Wi-Fi
+                </p>
+                <div class="project-btn-grp">
+                    <button class="project-btn github"><a href="https://github.com/nitninja/Smarthomes.git">github repo</a></button>
+                    <button class="project-btn live"><a href="https://nitninja.github.io/Smarthomes/">see live</a></button>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+<!-- about section -->
+<section class="about-section active" id="about-section">
+    <div class="about">
+        <div class="about-img-container">
+            <img src="https://raw.githubusercontent.com/nitninja/CSSlearning/main/programming.gif" class="about-img" alt="">
+            <button class="download-cv-btn"><a href="https://drive.google.com/file/d/1JuKtZce7yTu87zxP5Q9WudSzxEbWqW10/view?usp=sharing">Downlaod CV</a></button>
+        </div>
+        <p class="about-info">As I'm pursuing computer science and engineering it's all because I'm always excited about computers and new technologies in this
+            field. Learning new technologies and finding ways to efficiently use my learnings to create something that could contribute to our
+            society for good.
+            </p>
+    </div>
+</section>  
+
+<!-- contact section -->
+<section class="contact-section active" id="contact-section" >
+    <form class="contact-form" action="mailto:nitishkumar7015@outlook.com" method="post" enctype="text/plain">
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+        <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+        <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+        <button type="submit" class="form-submit-btn">contact</button>
+    </form>
+    <!-- map -->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57760.37702356743!2d85.48760727965153!3d25.202427826667396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2f35c30f6cd23%3A0x4a668b37898fef59!2sBihar%20Sharif%2C%20Bihar!5e0!3m2!1sen!2sin!4v1655525143105!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+    
+ <div class="float-container">
+    <div class="float-sm">
+      <div class="fl-fl float-linkedin">
+        <a href="" target="_blank"> LinkedIn</a>
+        <i class="fa-brands fa-4x fa-linkedin-in"></i>
+      </div>
+
+      <div class="fl-fl float-hcrnk">
+        <a href="https://www.hackerrank.com/NITISHKUMAR7015" target="_blank">HackerRank</a>
+        <i class="fa-brands fa-4x fa-hackerrank"></i>
+      </div>
+
+      <div class="fl-fl float-github">
+        <a href="https://github.com/nitninja" target="_blank">Github</a>
+        <i class="fa-brands fa-4x fa-github"></i>
+      </div>
+
+      <div class="fl-fl float-twitter">
+        <a href="https://twitter.com/NiTNiNJA_2" target="_blank">Follow me!</a>
+        <i class="fa-brands fa-4x fa-twitter"></i>
+      </div>
+    
+    </div>
+   
+
+<h4 class="footerpara">Made with ❤️ © 2022 @Nitish</h4>
+
+</body>
+</html>
